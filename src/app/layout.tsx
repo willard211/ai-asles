@@ -1,20 +1,6 @@
 import type { Metadata } from 'next';
-import { Inter, Noto_Sans_SC } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-});
-
-const notoSansSC = Noto_Sans_SC({
-  subsets: ['latin'],
-  variable: '--font-noto-sans-sc',
-  weight: ['400', '500', '600', '700'],
-  display: 'swap',
-});
 
 export const metadata: Metadata = {
   title: '外贸智联 — WhatsApp AI 销售系统 | 让询盘被 AI 自动接住',
@@ -38,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="zh" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${notoSansSC.variable} font-sans antialiased bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100`}
+        className="font-sans antialiased bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100"
       >
         <Providers>{children}</Providers>
       </body>

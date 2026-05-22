@@ -18,7 +18,7 @@ const NAV_LINKS = [
 
 export default function Navbar({ onDemoClick }: NavbarProps) {
   const { t, locale, setLocale } = useLanguage();
-  const { theme, setTheme } = useTheme();
+  const { theme, toggleTheme } = useTheme();
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
@@ -41,10 +41,6 @@ export default function Navbar({ onDemoClick }: NavbarProps) {
   const toggleLocale = useCallback(() => {
     setLocale(locale === 'zh' ? 'en' : 'zh');
   }, [locale, setLocale]);
-
-  const toggleTheme = useCallback(() => {
-    setTheme(theme === 'dark' ? 'light' : 'dark');
-  }, [theme, setTheme]);
 
   const handleNavClick = useCallback(
     (href: string) => {
