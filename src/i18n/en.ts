@@ -146,7 +146,7 @@ const en = {
   'footer.support.help': 'Help Center',
   'footer.support.contact': 'Contact Us',
   'footer.support.privacy': 'Privacy Policy',
-  'footer.copyright': '© 2026 WaiMao ZhiLian. All rights reserved.',
+  'footer.copyright': '© 2026 WaiMao Radar. All rights reserved.',
   'footer.description': 'WhatsApp AI Sales System for Foreign Trade Enterprises',
 };
 

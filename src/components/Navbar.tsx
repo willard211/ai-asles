@@ -69,7 +69,7 @@ export default function Navbar({ onDemoClick }: NavbarProps) {
             className="flex items-center gap-2 text-lg font-bold text-gray-900 dark:text-white transition-colors"
           >
             <ChatIcon className="h-7 w-7 text-[#25D366]" />
-            <span>外贸智联</span>
+            <span>外贸雷达</span>
           </a>
 
           {/* ── Desktop nav links ── */}
@@ -212,7 +212,7 @@ export default function Navbar({ onDemoClick }: NavbarProps) {
         <div className="flex h-16 items-center justify-between px-5">
           <span className="flex items-center gap-2 text-lg font-bold text-gray-900 dark:text-white">
             <ChatIcon className="h-6 w-6 text-[#25D366]" />
-            外贸智联
+            外贸雷达
           </span>
           <button
             type="button"

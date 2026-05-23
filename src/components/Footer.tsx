@@ -48,7 +48,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-2.5">
               <ChatIcon size={36} />
-              <span className="text-xl font-bold text-white">外贸智联</span>
+              <span className="text-xl font-bold text-white">外贸雷达</span>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-6 text-gray-400">
               {t('footer.description')}

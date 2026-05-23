@@ -260,7 +260,7 @@ export default function ProductMockup() {
         {/* ── Card shell ── */}
         <div className="rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 overflow-hidden">
           {/* Title bar */}
-          <WindowTitleBar title="WaiMao ZhiLian — AI CRM" />
+          <WindowTitleBar title="WaiMao Radar — AI CRM" />
 
           {/* Two‑panel body */}
           <div className="grid grid-cols-1 md:grid-cols-[1.18fr_0.82fr] divide-y md:divide-y-0 md:divide-x divide-gray-200 dark:divide-gray-700">

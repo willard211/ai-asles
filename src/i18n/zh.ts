@@ -146,7 +146,7 @@ const zh = {
   'footer.support.help': '帮助中心',
   'footer.support.contact': '联系客服',
   'footer.support.privacy': '隐私政策',
-  'footer.copyright': '© 2026 外贸智联 版权所有',
+  'footer.copyright': '© 2026 外贸雷达 版权所有',
   'footer.description': '面向中国外贸企业的 WhatsApp AI 销售系统',
 };
 
